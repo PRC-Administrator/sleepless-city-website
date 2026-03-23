@@ -122,3 +122,29 @@ footer {
     to {opacity: 1; transform: translateY(0);}
 }
 
+.small {
+    height: 40vh;
+}
+
+.card.big {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(212,175,55,0.1);
+    border-left: 3px solid #d4af37;
+}
+
