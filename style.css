@@ -10,17 +10,16 @@ body {
     height: 100vh;
     text-align: center;
 
-    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.95)),
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.95)),
                 url('logo.png');
 
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* 🔥 Parallax */
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    animation: fadeIn 1.5s ease;
 }
 
 .logo {
