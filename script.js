@@ -10,3 +10,8 @@ window.addEventListener("scroll", () => {
         }
     });
 });
+
+window.addEventListener("scroll", () => {
+    const scroll = window.scrollY;
+    document.querySelector(".hero").style.backgroundPositionY = scroll * 0.5 + "px";
+});
